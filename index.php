@@ -1,27 +1,13 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Game Market</title>
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-		<link type="text/css" rel="stylesheet" href="css/estilo.css"/>
-		<link type="text/css" rel="stylesheet" href="css/etiqueta.css"/>
-
-    </head>
+	<?php include 'plantillas/header.php'; ?>
+	<script type="text/javascript" src="js/login.js"></script>
 	<body>
 		
 		<header>
 			
-			<div id="top-header">
-				<div class="container">
-					<ul class="header-links pull-left">
-						<li><a href="#">634987502</a></li>
-						<li><a href="#">game_market_@gmail.com</a></li>
-					</ul>
-				</div>
-			</div>
+			<?php include 'plantillas/topHeader.php'; ?>
 			
 			<div id="header">
 				
@@ -37,27 +23,7 @@
 							</div>
 						</div>
 					
-						<div class="col-md-8 clearfix">
-							<div class="header-ctn">
-
-								<div>
-
-									<form method="post" id="miformulario" style="">
-
-							            <label for="name">Nombre de usuario:</label><br>
-							            <input type="text" name="user_name" placeholder="Nombre de usuario" id="user">
-							            <br>
-							            <label for="username">Contraseña:</label><br>
-							            <input type="password" name="password" placeholder="Introduzca la contraseña" id="contra">
-
-							            <div id="lower"><br>
-							               <input type="button" value="Iniciar Sesión" id="iniciar">
-							               <input type="button" onclick="location.href='registro.php'" value="Registro" id="registro">
-							            </div>
-		            				</form>
-								</div>
-							</div>
-						</div>
+						<?php include 'plantillas/loginTMP.php' ?>	
 					
 					</div>
 				
@@ -68,28 +34,12 @@
 		</header>
 
 		
-		<nav id="navigation">
-			
-			<div class="container">
-				
-				<div id="responsive-nav">
-					
-					<ul class="main-nav nav navbar-nav">
-						<li class="active"><a href="#">Inicio</a></li>
-						<li><a href="registro.php">Registro</a></li>
-						<li><a href="destacados.php">Destacados y Ofertas</a></li>
-						<li><a href="valoraciones.php">Valoraciones</a></li>
-						<li><a href="administrar.php">Administrar</a></li>
-					</ul>
-					
-				</div>
-				
-			</div>
-		
-		</nav>
+		<?php include 'plantillas/navTMP.php'; ?>
 		
 		</div>
-
+		<div class="container">
+			<?php include 'php/productosPrincipal.php' ?>
+		</div>
 		
 		<footer id="footer">
 			

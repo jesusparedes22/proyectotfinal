@@ -1,31 +1,16 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Game Market</title>
-
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-		<link type="text/css" rel="stylesheet" href="css/estilo.css"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<?php include 'plantillas/header.php'; ?>
     	<script type="text/javascript" src="js/validar.js"></script>
+    	<script type="text/javascript" src="js/registro.js"></script>
 
     </head>
 	<body>
 		
 		<header>
 			
-			<div id="top-header">
-				<div class="container">
-					<ul class="header-links pull-left">
-						<li><a href="#">634987502</a></li>
-						<li><a href="#">game_market_@gmail.com</a></li>
-					</ul>
-				</div>
-			</div>
+			<?php include 'plantillas/topHeader.php'; ?>
 			
 			<div id="header">
 				
@@ -46,7 +31,7 @@
 
 								<div>
 									
-									<h2>Regístrate ahora!</h2>
+									<h2 class="registrate">Regístrate ahora!</h2>
 
 								</div>
 							</div>
@@ -60,23 +45,8 @@
 		
 		</header>
 
-		<nav id="navigation">
-			<div class="container">
+		<?php include 'plantillas/navTMP.php'; ?>
 
-				<div id="responsive-nav">
-
-					<ul class="main-nav nav navbar-nav">
-						<li><a href="index.php">Inicio</a></li>
-						<li class="active"><a href="#">Registro</a></li>
-						<li><a href="destacados.php">Destacados y Ofertas</a></li>
-						<li><a href="valoraciones.php">Valoraciones</a></li>
-						<li><a href="administrar.php">Administrar</a></li>
-					</ul>
-
-				</div>
-
-			</div>
-		</nav>
 
 		<br>
 		<br>

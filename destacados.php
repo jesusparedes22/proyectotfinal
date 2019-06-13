@@ -1,28 +1,15 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Game Market</title>
-
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link type="text/css" rel="stylesheet" href="css/estilo.css"/>
+	<?php include 'plantillas/header.php'; ?>
+	<script type="text/javascript" src="js/destacados.js"></script>
 
     </head>
 	<body>
 		
 		<header>
 			
-			<div id="top-header">
-				<div class="container">
-					<ul class="header-links pull-left">
-						<li><a href="#">634987502</a></li>
-						<li><a href="#">game_market_@gmail.com</a></li>
-					</ul>
-				</div>
-			</div>
+			<?php include 'plantillas/topHeader.php'; ?>
 			
 			<div id="header">
 				
@@ -37,7 +24,6 @@
 								</a>
 							</div>
 						</div>
-
 					
 					</div>
 				
@@ -47,23 +33,7 @@
 		
 		</header>
 
-		<nav id="navigation">
-			<div class="container">
-
-				<div id="responsive-nav">
-
-					<ul class="main-nav nav navbar-nav">
-						<li><a href="index.php">Inicio</a></li>
-						<li><a href="registro.php">Registro</a></li>
-						<li class="active"><a href="#">Destacados y Ofertas</a></li>
-						<li><a href="valoraciones.php">Valoraciones</a></li>
-						<li><a href="administrar.php">Administrar</a></li>
-					</ul>
-
-				</div>
-
-			</div>
-		</nav>
+		<?php include 'plantillas/navTMP.php'; ?>
 
 		<br>
 		<br>
@@ -77,6 +47,6 @@
 			</div>
 			
 		</footer>
-		
+
 	</body>
 </html>
