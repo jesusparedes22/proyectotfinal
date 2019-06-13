@@ -1,0 +1,374 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2B2D42;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+a {
+  color: #2B2D42;
+  font-weight: 500;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+a:hover, a:focus {
+  color: #D10024;
+  text-decoration: none;
+  outline: none;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+h2 {
+  color:white;
+}
+
+#iniciar {
+  display: inline-block;
+  padding: 8px 5px;
+  background-color: #D10024;
+  border: none;
+  border-radius: 40px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+#registro {
+  display: inline-block;
+  padding: 8px 5px;
+  background-color: #D10024;
+  border: none;
+  border-radius: 40px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+ 
+}
+
+#administ {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+#administu {
+ color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.tituloadmin {
+
+  margin-left: 20%;
+}
+
+
+#top-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #676665
+}
+
+.header-links li {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 12px;
+}
+
+.header-links li a {
+  color: #FFF;
+}
+
+#header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #15161D;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-logo .logo img {
+  display: block;
+}
+
+.header-ctn {
+  float: right;
+  padding: 15px 0px;
+}
+
+.main-nav>li>a:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #D10024;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.main-nav>li>a:hover:after, .main-nav>li>a:focus:after, .main-nav>li.active>a:after {
+  width: 100%;
+}
+
+
+#footer {
+  background: #15161D;
+  color: #B9BABC;
+}
+
+
+.footer {
+  margin: 30px 0px;
+}
+
+.footer .footer-title {
+  color: #FFF;
+}
+
+#nombreUser {
+  color: white;
+}
+
+@media(min-width: 750px){
+  #nombreUser {
+    margin-left: 250px;
+  }
+
+  #irPerfilIcon {
+    display: none;
+  }
+
+  #irCerrarSessionIcon {
+    display: none;
+  }
+}
+
+@media(max-width: 750px){
+  #nombreUser {
+    margin-left: 250px;
+  }
+
+  #irPerfil {
+    display: none;
+  }
+
+  #irCerrarSession {
+    display: none;
+  }
+}
+
+#myform{
+
+  background-color: #ACABAB;
+  border-radius: 5%;
+  margin-right: 35%;
+  margin-left: 30%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2B2D42;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+a {
+  color: #2B2D42;
+  font-weight: 500;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+a:hover, a:focus {
+  color: #D10024;
+  text-decoration: none;
+  outline: none;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+h2 {
+  color:white;
+}
+
+#iniciar {
+  display: inline-block;
+  padding: 8px 5px;
+  background-color: #D10024;
+  border: none;
+  border-radius: 40px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+#registro {
+  display: inline-block;
+  padding: 8px 5px;
+  background-color: #D10024;
+  border: none;
+  border-radius: 40px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+ 
+}
+
+#administ {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+#administu {
+ color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.tituloadmin {
+
+  margin-left: 20%;
+}
+
+
+#top-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #676665
+}
+
+.header-links li {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 12px;
+}
+
+.header-links li a {
+  color: #FFF;
+}
+
+#header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #15161D;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-logo .logo img {
+  display: block;
+}
+
+.header-ctn {
+  float: right;
+  padding: 15px 0px;
+}
+
+.main-nav>li>a:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #D10024;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.main-nav>li>a:hover:after, .main-nav>li>a:focus:after, .main-nav>li.active>a:after {
+  width: 100%;
+}
+
+
+#footer {
+  background: #15161D;
+  color: #B9BABC;
+}
+
+
+.footer {
+  margin: 30px 0px;
+}
+
+.footer .footer-title {
+  color: #FFF;
+}
+
+#nombreUser {
+  color: white;
+}
+
+@media(min-width: 750px){
+  #nombreUser {
+    margin-left: 250px;
+  }
+
+  #irPerfilIcon {
+    display: none;
+  }
+
+  #irCerrarSessionIcon {
+    display: none;
+  }
+}
+
+@media(max-width: 750px){
+  #nombreUser {
+    margin-left: 250px;
+  }
+
+  #irPerfil {
+    display: none;
+  }
+
+  #irCerrarSession {
+    display: none;
+  }
+}
+
+#myform{
+
+  background-color: #ACABAB;
+  border-radius: 5%;
+  margin-right: 35%;
+  margin-left: 30%;
+}
